@@ -7,6 +7,7 @@
 <?php if ( get_theme_mod( 'downbeat_footer_widgets' ) == "yes") : ?> 
 	<section id="footer_widgets">
 	<div class="container">
+	<div class="row">
 		<?php if ( is_active_sidebar( 'footer-sidebar' ) ) : ?>
 	    <?php dynamic_sidebar( 'footer-sidebar' ); ?>
 	    <?php else : ?>
@@ -14,6 +15,7 @@
 	    <?php endif; ?>  
 	    <!--clearing break-->
 	    <br class="clear" />     
+	</div>
 	</div>
 	</section>
 <?php endif; ?> 

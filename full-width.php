@@ -19,6 +19,7 @@ get_template_part( 'menu', 'index' ); ?>
 <section id="content">
 <div class="container">
 	<div class="sixteen columns alpha omega">
+	<div class="row">
 		<div id="primary" class="full-width">
 			<div id="full_content">
 
@@ -26,7 +27,8 @@ get_template_part( 'menu', 'index' ); ?>
 
 			</div><!-- #full_content -->
 		</div><!-- #primary -->
-	</div>          
+	</div>  
+	</div>        
 </div>
 </section>
 <?php
