@@ -68,4 +68,6 @@ Skeleton was built using [Sublime Text 3](http://www.sublimetext.com/3) and desi
 
 ## Acknowledgement
 
+This theme was built by [Mitch Canter](http://www.studionashvegas.com) as the core for his client's themes.
+
 Skeleton was created by [Dave Gamache](https://twitter.com/dhg) for a better web.
