@@ -1,29 +1,41 @@
 # [Skeleton](http://getskeleton.com)
-Skeleton is a simple, responsive boilerplate to kickstart any responsive project.
-
-Check out <http://getskeleton.com> for documentation and details.
+Based on the Skeleton Framework. Check out <http://getskeleton.com> for documentation and details.
 
 ## Getting started
 
-There are a couple ways to download Skeleton:
-- [Download the zip](https://github.com/dhg/Skeleton/releases/download/v2.0.1/Skeleton-2.0.1.zip)
-- Clone the repo: `git clone https://github.com/dhg/Skeleton.git`
+Download the zip file and upload this theme into your wp-content/themes folder.  Once done, activate it in WordPress.  Make sure to check out the "Customize" screen to see all of the options available to you!
 
+Note: To make it easier to remember when you use a [child theme](www.studionashvegas.com/using-child-theme-wordpress/), I would put the theme in a folder named "downbeat".
 
 ### What's in the download?
 
-The download includes Skeleton's CSS, Normalize CSS as a reset, a sample favicon, and an index.html as a starting point.
+The download includes Skeleton's CSS, Normalize CSS, a WordPress CSS, and the various theme files.
 
 ```
 skeleton/
-├── index.html
+├── js/
+│   └── footer.js
 ├── css/
 │   ├── normalize.min.css
 │   └── skeleton.css
-├── images/
-│   └── favicon.ico
+│   └── wordpress.css
+├── bottom.php
+├── comments.php
+├── content.php
+├── footer_widgets.php
+├── full-width.php
+├── functions.php
+├── header.php
+├── index.php
+├── loop.php
+├── navigation.php
+├── screenshot.png
+├── style.css
+├── top.php
 └── README.md
 ```
+
+## From the Skeleton Readme
 
 ### Why it's awesome
 
