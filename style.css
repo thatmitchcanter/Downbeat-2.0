@@ -1,0 +1,44 @@
+/*
+Theme Name: Downbeat
+Theme URI: http://www.studionashvegas.com
+Author: Mitch Canter
+Author URI: http://www.studionashvegas.com
+Description: The Core Theme for [studionashvegas].  This is a bare-bones, responsive theme jam-packed with features used for the client websites of [studionashvegas].
+Version: v1.2
+License: MIT License
+License URI: http://www.opensource.org/licenses/mit-license.php
+Tags: two-columns, white, black
+*/
+
+/* Generic Site Styles
+––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
+@import url("css/wordpress.css");
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries 
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it 
+there. 
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
